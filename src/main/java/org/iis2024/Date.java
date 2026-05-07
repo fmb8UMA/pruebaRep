@@ -20,6 +20,11 @@ public class Date {
   private final int month;
   private final int year;
 
+  //MÉTODO MOSTRAR DATE
+  public void mostrarFecha() {
+    System.out.println(day + "/" + month + "/" + year);
+  }
+
   /**
    * Retrieves the day component of this date.
    *
